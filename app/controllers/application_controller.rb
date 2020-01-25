@@ -14,10 +14,10 @@ class ApplicationController < Sinatra::Base
     erb :new
   end
 
-  post '/recipes/:id' do
-    @recipes = Recipe.find_by(params[:id])
+  # post '/recipes/:id' do
+  #  @recipes = Recipe.find_by(params[:id])
 
-    erb :show
-  end
+  #  erb :show
+  #end
 
 end
