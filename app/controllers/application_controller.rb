@@ -16,6 +16,8 @@ class ApplicationController < Sinatra::Base
 
   post '/recipes' do
 
+  end
+
   # post '/recipes/:id' do
   #  @recipes = Recipe.find_by(params[:id])
 
