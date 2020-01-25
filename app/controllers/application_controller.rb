@@ -32,6 +32,14 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
 
+  patch '/recipes/:id' do
+    @recipe =
+    @recipe =
+    @recipe =
+    @recipe =
+    @recipe.save
+  end
+
 
 
 end
